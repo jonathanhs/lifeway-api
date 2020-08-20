@@ -7,9 +7,10 @@ To build the API:
 > python main.py         # serve the application, running on http://127.0.0.1:5000/
 ```
 To run the API:
-Endpoint: http://127.0.0.1:5000/count/message
-Note: id and message are mutable.
 ```sh
+# endpoint: http://127.0.0.1:5000/count/message
+# note: id and message are mutable
+
 > curl -X GET "http://127.0.0.1:5000/count/message" \
 -H "Content-type: application/json" \
 -H "Accept: application/json" \
