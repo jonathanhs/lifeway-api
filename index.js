@@ -12,7 +12,7 @@ app.use('/api/v0', routes);
 
 // listening port
 app.listen(port, () => {
-    console.log(`Lifeway API listening at http://localhost:${port}`)
+    console.log(`Lifeway API listening at http://127.0.0.1:${port}`)
 })
 
 module.exports = app;
